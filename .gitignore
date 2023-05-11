@@ -1,1 +1,7 @@
 test.py
+
+# Configuració del Visual Studio Code.
+.vscode
+
+# Arxius compilats de Python.
+__pycache__
