@@ -1,7 +1,7 @@
 """Versió del projecte feta en Python.
 
 Fet per:
-    (Grup 2)
+    (Grup 4) Tema 2
     - Yasmine Fadiss
     - Jessica Martinez
     - Sergi Serra
