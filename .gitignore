@@ -5,3 +5,9 @@ test.py
 
 # Arxius compilats de Python.
 __pycache__
+
+# Arxius compilats de Java i del IDE eclipse.
+bin
+.classpath
+.project
+.settings
