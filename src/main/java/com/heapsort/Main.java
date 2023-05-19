@@ -1,7 +1,7 @@
 /**
  * Script pel tema 2 del projecte, fet pel grup 4.
  * 
- * @author Sergi Serra, Yasmine Fadiss, Jessica Martinez, Arnau Vilalta, Iván Tovar, Pol Sanchez, Maximiliano Godoy.
+ * @author Sergi Serra, Yasmine Fadiss, Jessica Martinez, Arnau Vilalta, Iván Tovar, Pol Sanchez, Maximiliano Godoy
  * @version 1.0
  */
 package main.java.com.heapsort;
@@ -16,7 +16,7 @@ import main.java.com.heapsort.exceptions.ValorsNoNumerics;
 /**
  * Classe principal del projecte.
  * 
- * @author Sergi Serra, Yasmine Fadiss, Jessica Martinez, Arnau Vilalta, Iván Tovar, Pol Sanchez, Maximiliano Godoy.
+ * @author Sergi Serra, Yasmine Fadiss, Jessica Martinez, Arnau Vilalta, Iván Tovar, Pol Sanchez, Maximiliano Godoy
  */
 public class Main {
 	/**
