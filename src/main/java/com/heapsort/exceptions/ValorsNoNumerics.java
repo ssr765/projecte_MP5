@@ -1,7 +1,7 @@
 /**
- * Excepció que afloreix quan hi ha algún valor no numèric a la llista.
+ * Fa aflorar una excepció quan hi ha algun valor no numèric a la llista.
  * 
- * @author Sergi Serra, Yasmine Fadiss, Jessica Martinez, Arnau Vilalta, Iván Tovar, Pol Sanchez, Maximiliano Godoy
+ * @author Sergi Serra, Yasmine Fadiss, Jessica Martinez, Arnau Vilalta, Iván Tovar, Pol Sanchez, Maximiliano Godoy.
  * @version 1.0
  */
 package main.java.com.heapsort.exceptions;
