@@ -20,7 +20,7 @@ import main.java.com.heapsort.exceptions.ValorsNoNumerics;
  */
 public class Main {
 	/**
-	 * Demana els numeros a l'usuari i verifica que siguin números enters
+	 * Demana els números a l'usuari i verifica que siguin números enters
 	 * correctes.
 	 * 
 	 * @return La llista ArrayList amb els números.
@@ -61,9 +61,9 @@ public class Main {
 	 * Métode principal del projecte.
 	 * 
 	 * @param args
-	 * @throws NoEsLlista Si el parametre passat no es una llista de tipus ArrayList.
+	 * @throws NoEsLlista Si el paràmetre passat no és una llista de tipus ArrayList.
 	 * @throws ValorsNoNumerics Si la llista té valors no numérics.
-	 * @throws LlistaBuida Si la llista es buida.
+	 * @throws LlistaBuida Si la llista és buida.
 	 */
 	public static void main(String args[]) throws NoEsLlista, ValorsNoNumerics, LlistaBuida {
 		// Crear la llista.
