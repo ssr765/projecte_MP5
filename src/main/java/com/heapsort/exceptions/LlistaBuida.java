@@ -1,5 +1,5 @@
 /**
- * Excepció que afloreix quan la llista es buida.
+ * Excepció que afloreix quan la llista és buida.
  * 
  * @author Sergi Serra, Yasmine Fadiss, Jessica Martinez, Arnau Vilalta, Iván Tovar, Pol Sanchez, Maximiliano Godoy
  * @version 1.0
@@ -13,6 +13,6 @@ public class LlistaBuida extends Exception {
 	private static final long serialVersionUID = 1L;
 
 	public LlistaBuida() {
-        super("La lista es buida.");
+        super("La lista és buida.");
     }
 }
