@@ -14,7 +14,7 @@ class HeapSort:
         if not isinstance(llista, list):
             raise NoEsLLista
 
-        # Comprovar que tots els valors de la llista.
+        # Comprovar que tots els valors de la llista siguin nombres.
         for x in llista:
             if not isinstance(x, int):
                 raise ValorsNoNumerics
@@ -50,7 +50,7 @@ class HeapSort:
         del node passat per parametre i dels seus nodes inferiors.
         
         Args:
-            num_nodes (int): Nombre de nodes restants al arbre.
+            num_nodes (int): Nombre de nodes restants a l'arbre.
             node_actual (int): Node a comparar.
         """
         print(Fore.GREEN + f"Inici del Heapify pel node {node_actual}.")
@@ -58,22 +58,22 @@ class HeapSort:
         esquerra = 2 * node_actual + 1
         dreta = 2 * node_actual + 2
 
-        # En cas que hi hagi un node inferior esquerra, comprovar si el node
-        # esquerra es més petit que el node actual.
+        # En cas que hi hagi un node inferior a l'esquerra, comprovar si aquest node
+        # és més petit que el node actual.
         if (
             esquerra < num_nodes
             and self.llista[node_actual] < self.llista[esquerra]
         ):
-            print(Fore.MAGENTA + "El node esquerra passa a ser el major.")
+            print(Fore.MAGENTA + "El node esquerre passa a ser el major.")
             major = esquerra
 
-        # En cas que hi hagi un node inferior dreta, comprovar si el node major
-        # es més petit que el node dreta.
+        # En cas que hi hagi un node inferior a la dreta, comprovar si el node major
+        # és més petit que el node de la dreta.
         if dreta < num_nodes and self.llista[major] < self.llista[dreta]:
             print(Fore.MAGENTA + "El node dret passa a ser el major.")
             major = dreta
 
-        # Si el node_actual ha deixat de ser el més gran, es canvien i es
+        # Si el node actual ha deixat de ser el més gran, es canvien i es
         # continua fent Heapify recursivament.
         if major != node_actual:
             print("Canviant el node per el número major.")
@@ -86,11 +86,11 @@ class HeapSort:
         print(Fore.GREEN + "Final del Heapify.")
 
     def intercanvi(self, x: int, y: int) -> None:
-        """Fa un intercanvi entre dos index de la llista.
+        """Fa un intercanvi entre dos índex de la llista.
 
         Args:
-            x (int): Primer index.
-            y (int): Segón index.
+            x (int): Primer índex.
+            y (int): Segón índex.
         """
         print(
             f"Intercanvi del node {x} (valor: {self.llista[x]}) amb"
