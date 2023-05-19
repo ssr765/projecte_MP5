@@ -16,7 +16,7 @@ import main.java.com.heapsort.exceptions.ValorsNoNumerics;
 /**
  * Classe principal del projecte.
  * 
- * @author Sergi Serra, Yasmine Fadiss, Jessica Martinez, Arnau Vilalta, Iván Tovar, Pol Sanchez, Maximiliano Godoy
+ * @author Sergi Serra, Yasmine Fadiss, Jessica Martinez, Arnau Vilalta, Iván Tovar, Pol Sanchez, Maximiliano Godoy.
  */
 public class Main {
 	/**
