@@ -34,14 +34,14 @@ public class HeapSort {
 			throw new NoEsLlista();
 		}
 
-		// Comprovar que tots els valors de la llista.
+		// Comprovar que tots els valors de la llista siguin enters.
 		for (Integer x : numeros) {
 			if (!(x instanceof Integer)) {
 				throw new ValorsNoNumerics();
 			}
 		}
 
-		// Comprovar que la llista no sigui buida.
+		// Comprovar que la llista no estigui buida.
 		if (numeros.isEmpty()) {
 			throw new LlistaBuida();
 		}
@@ -71,11 +71,11 @@ public class HeapSort {
 	}
 
 	/**
-	 * 'heapify' es la métode cridat per 'odernar' que fa la comparació
-	 * del node passat per parametre i dels seus nodes inferiors.
+	 * 'heapify' és el métode cridat per 'ordenar' que fa la comparació
+	 * del node passat per paràmetre i dels seus nodes inferiors (fills).
 	 * 
 	 * @param numeros Llista de números.
-	 * @param num_nodes Nombre de nodes restants al arbre.
+	 * @param num_nodes Nombre de nodes restants a l'arbre.
 	 * @param node_actual Node a comparar.
 	 */
 	void heapify(ArrayList<Integer> numeros, int num_nodes, int node_actual) {
@@ -84,15 +84,15 @@ public class HeapSort {
 		int esquerra = 2 * node_actual + 1;
 		int dreta = 2 * node_actual + 2;
 
-		// En cas que hi hagi un node inferior esquerra, comprovar si el node
-		// esquerra es més petit que el node actual.
+		// En cas que hi hagi un node inferior a l'esquerra, comprovar si el node
+		// esquerra és més petit que el node actual.
 		if (esquerra < num_nodes && numeros.get(esquerra) > numeros.get(major)) {
 			System.out.println("El node esquerra passa a ser el major.");
 			major = esquerra;
 		}
 
-		// En cas que hi hagi un node inferior dreta, comprovar si el node major
-		// es més petit que el node dreta.
+		// En cas que hi hagi un node inferior a la dreta, comprovar si el node major
+		// és més petit que el node dreta.
 		if (dreta < num_nodes && numeros.get(dreta) > numeros.get(major)) {
 			System.out.println("El node dret passa a ser el major.");
 			major = dreta;			
@@ -113,7 +113,7 @@ public class HeapSort {
 	}
 
 	/**
-	 * Fa un intercanvi entre dos index de la llista.
+	 * Fa un intercanvi entre dos índex de la llista.
 	 * 
 	 * @param x Primer índex.
 	 * @param y Segon índex.
