@@ -13,7 +13,7 @@ import main.java.com.heapsort.exceptions.NoEsLlista;
 import main.java.com.heapsort.exceptions.ValorsNoNumerics;
 
 /**
- * Representra el HeapSort que ordenarà la llista.
+ * Representa el HeapSort que ordenarà la llista.
  * 
  * @author Sergi Serra, Yasmine Fadiss, Jessica Martinez, Arnau Vilalta, Iván Tovar, Pol Sanchez, Maximiliano Godoy
  */
@@ -123,7 +123,16 @@ public class HeapSort {
 		numeros.set(x, numeros.get(y));
 		numeros.set(y, swap);
 	}
-
+	
+	/**
+	 * Getter de la llista de numeros.
+	 * 
+	 * @return La llista numèrica.
+	 */
+	ArrayList<Integer> get_numeros() {
+		return this.numeros;
+	}
+	
 	/**
 	 * Mostra la llista.
 	 * 
