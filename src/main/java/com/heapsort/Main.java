@@ -1,7 +1,7 @@
 /**
  * Script pel tema 2 del projecte, fet pel grup 4.
  * 
- * @author Sergi Serra, Yasmine Fadiss, Jessica Martinez, Arnau Vilalta, Iván Tovar, Pol Sanchez, Maximiliano Godoy
+ * @author Sergi Serra, Yasmine Fadiss, Jessica Martinez, Arnau Vilalta, Iván Tovar, Pol Sanchez, Maximiliano Godoy.
  * @version 1.0
  */
 package main.java.com.heapsort;
@@ -29,7 +29,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		ArrayList<Integer> numeros = new ArrayList<Integer>();
 
-		// Bucle per demanar numeros.
+		// Bucle per demanar números.
 		boolean sortir = false;
 		while (!sortir) {
 			// Demanar el número i comprovar si es vol sortir.
@@ -69,7 +69,7 @@ public class Main {
 		// Crear la llista.
 		ArrayList<Integer> numeros = demanar_numeros();
 		System.out.println("La llista desordenada es: ");
-		HeapSort.mostra_llista(numeros);	// Métode static, no fa falta haber declarat un HeapSort.
+		HeapSort.mostra_llista(numeros);	// Métode static, no fa falta haver declarat un HeapSort.
 
 		// Creació del HeapSort.
 		HeapSort hs = new HeapSort(numeros);
@@ -77,7 +77,7 @@ public class Main {
 		// Ordenar la llista.
 		hs.ordenar();
 
-		System.out.println("La llista ordenada es: ");
+		System.out.println("La llista ordenada és: ");
 		HeapSort.mostra_llista(numeros);
 	}
 }
